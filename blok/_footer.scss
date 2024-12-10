@@ -1,0 +1,101 @@
+.footer_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 516px;
+  margin: 2555px auto;
+  background: #191919;
+
+  .footer_item {
+    /* Our burgers */
+
+    width: 102px;
+    height: 18px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    color: #ffffff;
+  }
+
+  .footer_title {
+    /* Our Products */
+
+    width: 154px;
+    height: 24px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+
+    color: #ffffff;
+  }
+
+  .footer_box {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    gap: 120px;
+
+    margin: 50px auto;
+    height: 198px;
+  }
+
+  .footer_right_box {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+
+  li {
+    padding: 15px 0;
+  }
+
+  .footer_item1 {
+    width: 102px;
+    height: 18px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    color: #ffffff;
+  }
+
+  .last_text {
+    /* © 2024 Nayef All rights reserved. */
+
+    margin: 0 auto;
+    width: 286px;
+    height: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    color: #ffffff;
+  }
+
+  .last_wrapper {
+    width: 100%;
+    height: 58px;
+    margin: 210px auto;
+  }
+
+  .last_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

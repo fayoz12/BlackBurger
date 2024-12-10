@@ -1,0 +1,80 @@
+.head_wrapper {
+  width: 100%;
+  height: 646px;
+  margin: 250px auto;
+  border: 1px solid black;
+  background-color: black;
+  .head_title {
+    /* Heading */
+
+    width: 713px;
+    height: 70px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    margin: auto;
+    /* identical to box height, or 140% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .head_text {
+    /* Support Text */
+
+    width: 820px;
+    height: 60px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    text-align: center;
+
+    color: #ffffff;
+    margin: 50px auto;
+  }
+
+  .head_text2 {
+    /* Support Text */
+
+    width: 513px;
+    height: 430px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #eeeeee;
+  }
+
+  .head_glav_box {
+    display: flex;
+    align-items: center;
+    gap: 510px;
+    margin: 100px 310px;
+  }
+  .header_sp1 {
+    /* Support Text */
+
+    width: 513px;
+    height: 430px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    color: #eeeeee;
+  }
+}

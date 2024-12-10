@@ -1,0 +1,105 @@
+.art_wrapper {
+  position: absolute;
+  width: 1005;
+  height: 912px;
+  margin: 350px 450px;
+
+  .art_glav_box {
+    width: 1300px;
+    margin: 100px auto;
+
+    height: 772px;
+  }
+
+  .art_title {
+    /* What Our Clients Are Saying */
+
+    width: 773px;
+    height: 70px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    /* identical to box height, or 140% */
+    text-align: center;
+
+    color: #ffffff;
+    margin: auto;
+  }
+
+  .art_subtitle {
+    /* Michal Gun */
+
+    width: 128px;
+    height: 28px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    color: #ffffff;
+  }
+
+  .art_subtext {
+    /* Head of sales at Tesla */
+
+    width: 146px;
+    height: 22px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    color: #ffffff;
+  }
+
+  .art_inf_box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .art_mini_box {
+    width: 370px;
+    height: 371px;
+
+    background: #191919;
+    border-radius: 16px;
+  }
+
+  .art_blok1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 15px 0;
+  }
+
+  .art_text {
+    /* There are many variatioof passages of Lorem Ipsum ava but the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything embarrassinhidden in believable. */
+
+    width: 310px;
+    height: 168px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    color: #ffffff;
+
+    padding: 45px 0;
+    opacity: 0.7;
+  }
+}

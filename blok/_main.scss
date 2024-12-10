@@ -1,0 +1,175 @@
+.main_wrapper {
+  width: 100%;
+  height: 1308px;
+  margin: auto;
+
+  .main_title {
+    /* Our Best & Delicious Menu */
+
+    width: 770px;
+    height: 70px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    /* identical to box height, or 140% */
+    text-align: center;
+
+    color: #ffffff;
+    margin: 150px auto;
+  }
+
+  .main_item {
+    /* Chiffon & Rolls */
+
+    width: 124px;
+    height: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .main_item_box {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    margin-left: 70px;
+  }
+
+  .main_item1 {
+    /* All */
+    width: 124px;
+    height: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    text-align: center;
+
+    color: #ffffff;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+
+    width: 64px;
+    height: 46px;
+
+    border-bottom: 4px solid #ffffff;
+    border-radius: 10px;
+  }
+  .main_subtitle {
+    /* Naan Burger */
+
+    width: 330px;
+    height: 34px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    margin: auto;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+
+    color: #ffffff;
+  }
+
+  .main_text {
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+
+    width: 330px;
+    height: 52px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 25px 0;
+    line-height: 26px;
+    /* or 162% */
+
+    margin: auto;
+    color: #ffffff;
+  }
+
+  .main_price {
+    /* $1.85 */
+
+    width: 65px;
+    height: 34px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+
+    /* identical to box height, or 142% */
+
+    color: #ffffff;
+  }
+
+  .main_mini_blok {
+    width: 370px;
+    height: 442px;
+
+    background: #191919;
+    box-shadow: 0px 0px 250px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+  }
+
+  .main_blok1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+  }
+
+  .main_img {
+    margin-left: 45px;
+  }
+
+  .main_price_box {
+    display: flex;
+    align-items: center;
+    margin: 45px 20px;
+    gap: 210px;
+  }
+
+  .main_btn {
+    width: 168px;
+    height: 68px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+    border-radius: 40px;
+
+
+    margin: 50px 1000px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    text-align: center;
+
+    color: #000000;
+  }
+}

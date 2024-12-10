@@ -1,0 +1,137 @@
+.asd_wrapper {
+  width: 100%;
+  height: 450px;
+  margin: 300px auto;
+
+  .asd_title {
+    /* We believe in making quality food */
+
+    width: 711px;
+    height: 60px;
+
+    font-family: "Inter";
+    font-style: normal;
+    margin: auto;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 60px;
+    /* identical to box height, or 136% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .asd_subtitle {
+    /* 2M+ */
+
+    width: 270px;
+    height: 66px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    /* identical to box height, or 118% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .asd_glav_box {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-left: 370px;
+    margin-top: 50px;
+  }
+
+  .asd_right_box {
+    align-items: center;
+    display: flex;
+    gap: 120px;
+  }
+
+  .asd_text {
+    /* Customer Satisfaction */
+
+    width: 270px;
+    height: 30px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    text-align: center;
+
+    color: #ffffff;
+    padding: 15px 0;
+  }
+
+  .asd_intro_wrapper {
+    width: 100%;
+    height: 438px;
+  }
+
+  .asd_intro_title {
+    position: absolute;
+    width: 911px;
+    height: 140px;
+    margin: 310px 670px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    /* or 140% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .asd_intro_text {
+    /* Support text */
+    position: absolute;
+    width: 1170px;
+    height: 150px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    text-align: center;
+
+    color: #ffffff;
+    margin: 510px 550px;
+  }
+
+  .asd_btn {
+    /* Become a Franchisee */
+
+    width: 186px;
+    height: 28px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    text-align: center;
+
+    color: #000000;
+
+    margin: 780px 980px;
+    width: 294px;
+    height: 68px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+    border-radius: 40px;
+  }
+}

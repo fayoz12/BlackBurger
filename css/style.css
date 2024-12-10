@@ -1,0 +1,765 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Inter";
+  font-weight: 900;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_wrapper {
+  width: 100%;
+  height: 1200px;
+  margin: auto;
+}
+.nav_wrapper .nav_item {
+  /* Welcome */
+  width: 81px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  color: #ffffff;
+}
+.nav_wrapper .nav_logo {
+  width: 100px;
+  height: 93.92px;
+}
+.nav_wrapper .nav_img {
+  width: 34px;
+  height: 34px;
+}
+.nav_wrapper .nav_glav_box {
+  display: flex;
+  width: 100%;
+  height: 128px;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_wrapper .nav_item_box {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  margin-left: 140px;
+}
+.nav_wrapper .img_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav_wrapper .nav_btn {
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  width: 232px;
+  height: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.intro_wrapper {
+  width: 100%;
+  margin: auto;
+  height: 1200px;
+}
+.intro_wrapper .intro_bck {
+  background-image: url("/img/hamburger-7877317.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1200px;
+}
+.intro_wrapper .intro_title {
+  position: absolute;
+  width: 713px;
+  height: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  margin: 250px 250px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  color: #ffffff;
+}
+.intro_wrapper .intro_text {
+  position: absolute;
+  width: 513px;
+  margin: 475px 250px;
+  height: 430px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  color: #eeeeee;
+}
+.intro_wrapper .intro_btn {
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  border: none;
+  width: 270px;
+  height: 70px;
+  margin: 570px 245px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.head_wrapper {
+  width: 100%;
+  height: 646px;
+  margin: 250px auto;
+  border: 1px solid black;
+  background-color: black;
+}
+.head_wrapper .head_title {
+  /* Heading */
+  width: 713px;
+  height: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  margin: auto;
+  /* identical to box height, or 140% */
+  text-align: center;
+  color: #ffffff;
+}
+.head_wrapper .head_text {
+  /* Support Text */
+  width: 820px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  text-align: center;
+  color: #ffffff;
+  margin: 50px auto;
+}
+.head_wrapper .head_text2 {
+  /* Support Text */
+  width: 513px;
+  height: 430px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  color: #eeeeee;
+}
+.head_wrapper .head_glav_box {
+  display: flex;
+  align-items: center;
+  gap: 510px;
+  margin: 100px 310px;
+}
+.head_wrapper .header_sp1 {
+  /* Support Text */
+  width: 513px;
+  height: 430px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  color: #eeeeee;
+}
+
+.main_wrapper {
+  width: 100%;
+  height: 1308px;
+  margin: auto;
+}
+.main_wrapper .main_title {
+  /* Our Best & Delicious Menu */
+  width: 770px;
+  height: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 70px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  color: #ffffff;
+  margin: 150px auto;
+}
+.main_wrapper .main_item {
+  /* Chiffon & Rolls */
+  width: 124px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  color: #ffffff;
+}
+.main_wrapper .main_item_box {
+  display: flex;
+  align-items: center;
+  gap: 250px;
+  margin-left: 70px;
+}
+.main_wrapper .main_item1 {
+  /* All */
+  width: 124px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  color: #ffffff;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  width: 64px;
+  height: 46px;
+  border-bottom: 4px solid #ffffff;
+  border-radius: 10px;
+}
+.main_wrapper .main_subtitle {
+  /* Naan Burger */
+  width: 330px;
+  height: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  margin: auto;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+  color: #ffffff;
+}
+.main_wrapper .main_text {
+  /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+  width: 330px;
+  height: 52px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 25px 0;
+  line-height: 26px;
+  /* or 162% */
+  margin: auto;
+  color: #ffffff;
+}
+.main_wrapper .main_price {
+  /* $1.85 */
+  width: 65px;
+  height: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+  color: #ffffff;
+}
+.main_wrapper .main_mini_blok {
+  width: 370px;
+  height: 442px;
+  background: #191919;
+  box-shadow: 0px 0px 250px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+.main_wrapper .main_blok1 {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.main_wrapper .main_img {
+  margin-left: 45px;
+}
+.main_wrapper .main_price_box {
+  display: flex;
+  align-items: center;
+  margin: 45px 20px;
+  gap: 210px;
+}
+.main_wrapper .main_btn {
+  width: 168px;
+  height: 68px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  margin: 50px 1000px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #000000;
+}
+
+.where_wrapper {
+  position: absolute;
+  width: 100%;
+  margin-top: 1950px;
+  height: 470px;
+}
+.where_wrapper .where_title {
+  /* Heading */
+  width: 542px;
+  height: 140px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  /* or 140% */
+  color: #ffffff;
+}
+.where_wrapper .where_text {
+  /* Support Text */
+  width: 542px;
+  height: 90px;
+  padding: 25px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  color: #ffffff;
+}
+.where_wrapper .where_btn {
+  /* CTA Button */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 54px;
+  gap: 10px;
+  width: 337px;
+  height: 68px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 80px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #000000;
+}
+.where_wrapper .where_glav_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.asd_wrapper {
+  width: 100%;
+  height: 450px;
+  margin: 300px auto;
+}
+.asd_wrapper .asd_title {
+  /* We believe in making quality food */
+  width: 711px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  margin: auto;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 60px;
+  /* identical to box height, or 136% */
+  text-align: center;
+  color: #ffffff;
+}
+.asd_wrapper .asd_subtitle {
+  /* 2M+ */
+  width: 270px;
+  height: 66px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  /* identical to box height, or 118% */
+  text-align: center;
+  color: #ffffff;
+}
+.asd_wrapper .asd_glav_box {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+.asd_wrapper .asd_right_box {
+  align-items: center;
+  display: flex;
+  gap: 120px;
+}
+.asd_wrapper .asd_text {
+  /* Customer Satisfaction */
+  width: 270px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 0;
+}
+.asd_wrapper .asd_intro_wrapper {
+  width: 100%;
+  height: 438px;
+}
+.asd_wrapper .asd_intro_title {
+  position: absolute;
+  width: 911px;
+  height: 140px;
+  margin: 310px 670px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 70px;
+  /* or 140% */
+  text-align: center;
+  color: #ffffff;
+}
+.asd_wrapper .asd_intro_text {
+  /* Support text */
+  position: absolute;
+  width: 1170px;
+  height: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  text-align: center;
+  color: #ffffff;
+  margin: 510px 550px;
+}
+.asd_wrapper .asd_btn {
+  /* Become a Franchisee */
+  width: 186px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #000000;
+  margin: 780px 980px;
+  width: 294px;
+  height: 68px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+}
+
+.input_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 368px;
+  background-color: white;
+  margin-top: 1444px;
+}
+.input_wrapper .input_title {
+  /* For more Support */
+  width: 680px;
+  height: 90px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  /* identical to box height, or 129% */
+  text-align: center;
+  color: #000000;
+  margin: auto;
+}
+.input_wrapper .input_frm {
+  /* CTA Button */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 400px 20px 30px;
+  gap: 10px;
+  width: 530px;
+  height: 68px;
+}
+.input_wrapper .input_place {
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 400px 20px 30px;
+  gap: 10px;
+  width: 530px;
+  height: 68px;
+  margin-left: 390px;
+  filter: drop-shadow(0px 4px 14px rgba(255, 255, 255, 0.15));
+  border-radius: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #000000;
+}
+.input_wrapper .input_btn {
+  /* CTA Button */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 54px;
+  gap: 10px;
+  width: 198px;
+  height: 68px;
+  background: #000000;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #ffffff;
+}
+.input_wrapper .input_box {
+  display: flex;
+  align-items: center;
+  gap: 210px;
+  margin: 66px 610px;
+}
+
+.art_wrapper {
+  position: absolute;
+  width: 1005;
+  height: 912px;
+  margin: 350px 450px;
+}
+.art_wrapper .art_glav_box {
+  width: 1300px;
+  margin: 100px auto;
+  height: 772px;
+}
+.art_wrapper .art_title {
+  /* What Our Clients Are Saying */
+  width: 773px;
+  height: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 70px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+}
+.art_wrapper .art_subtitle {
+  /* Michal Gun */
+  width: 128px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+}
+.art_wrapper .art_subtext {
+  /* Head of sales at Tesla */
+  width: 146px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  color: #ffffff;
+}
+.art_wrapper .art_inf_box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.art_wrapper .art_mini_box {
+  width: 370px;
+  height: 371px;
+  background: #191919;
+  border-radius: 16px;
+}
+.art_wrapper .art_blok1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 28px;
+  padding: 15px 0;
+}
+.art_wrapper .art_text {
+  /* There are many variatioof passages of Lorem Ipsum ava but the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything embarrassinhidden in believable. */
+  width: 310px;
+  height: 168px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: #ffffff;
+  padding: 45px 0;
+  opacity: 0.7;
+}
+
+.footer_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 516px;
+  margin: 2555px auto;
+  background: #191919;
+}
+.footer_wrapper .footer_item {
+  /* Our burgers */
+  width: 102px;
+  height: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+  color: #ffffff;
+}
+.footer_wrapper .footer_title {
+  /* Our Products */
+  width: 154px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+  color: #ffffff;
+}
+.footer_wrapper .footer_box {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  gap: 120px;
+  margin: 50px auto;
+  height: 198px;
+}
+.footer_wrapper .footer_right_box {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.footer_wrapper li {
+  padding: 15px 0;
+}
+.footer_wrapper .footer_item1 {
+  width: 102px;
+  height: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+  color: #ffffff;
+}
+.footer_wrapper .last_text {
+  /* © 2024 Nayef All rights reserved. */
+  margin: 0 auto;
+  width: 286px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  color: #ffffff;
+}
+.footer_wrapper .last_wrapper {
+  width: 100%;
+  height: 58px;
+  margin: 210px auto;
+}
+.footer_wrapper .last_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */

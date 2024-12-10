@@ -1,0 +1,76 @@
+.where_wrapper {
+  position: absolute;
+  width: 100%;
+  margin-top: 1950px;
+
+  height: 470px;
+  .where_title {
+    /* Heading */
+
+    width: 542px;
+    height: 140px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 50px;
+    line-height: 70px;
+    /* or 140% */
+
+    color: #ffffff;
+  }
+
+  .where_text {
+    /* Support Text */
+
+    width: 542px;
+    height: 90px;
+
+    padding: 25px 0;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    color: #ffffff;
+  }
+
+  .where_btn {
+    /* CTA Button */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 54px;
+    gap: 10px;
+
+    width: 337px;
+    height: 68px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.15);
+    border-radius: 40px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 80px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    text-align: center;
+
+    color: #000000;
+  }
+  .where_glav_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
